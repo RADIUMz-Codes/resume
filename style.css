@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+/* Body Header */
+
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    top: -20px;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+.horizontal-list li a:hover{
+    color: lightgrey;
+    
+}
+.nav-menu{
+    position: relative;
+    top: 15px;
+}
+.nav-menu a{
+    transition: color 0.5s, border-bottom 4s;
+}
+.nav-menu a:hover{
+    border-bottom: 1px solid white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.name{
+    position: relative;
+    margin-top: 90px;
+    color: white;
+    font-size: 1.5rem;
+}
+.social li a i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(231, 230, 230, 0.836);
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height:12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top:-19vh;
+    
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px white ;
+}
+#about-desc{
+    margin: 20px 22% 50px 22%;
+    font-size: 1.2rem;
+}
+
+#skills{
+    margin: auto;
+    padding: 20px 70px;
+    background-color: lightgray;
+}
+  
+.skills-container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-inline: 15%;
+
+}   
+
+#skill-title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.fas{
+    font-size: 2rem;
+}
+.progress-bar{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    box-shadow: 0px 0px 1px 1px black;
+    margin-bottom: 30px;    
+}
+.skill-background{
+    height: inherit;
+    border-radius: 20px 0px 0px 20px ;
+    display: flex;
+    align-items: center;
+}
+.skill-text{
+    color: white;
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+.color1{
+    background-color:mediumslateblue;
+    width: 90%;
+    
+}
+.color2{
+    background-color:lightcoral;
+    width: 80%;   
+}
+
+.color3{
+    background-color:orchid;
+    width: 75%;   
+}
+.color4{
+    background-color:mediumaquamarine;
+    width: 70%;   
+}
+.color5{
+    background-color:peru;
+    width: 50%;
+}
